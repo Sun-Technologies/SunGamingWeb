@@ -22,6 +22,10 @@ body {
 .nav-justified>li>a:hover {
 	background: #69D2E7;
 }
+.nav-justified>li>a {
+	border: 1px solid #2375b2;
+	color: #000;
+}
 #footer p {
 	color: #000;
 }
@@ -34,7 +38,7 @@ body {
 /*.container {
 	background: #fff;
 }*/
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h5, h6 {
 		font-family: GothamRounded;
 		color: #000;
 }
@@ -63,8 +67,13 @@ p>a {
 .nav-pills>li.active>a, 
 .nav-pills>li.active>a:hover, 
 .nav-pills>li.active>a:focus {
-	background: none;
 	border: 1px solid #2375b2;
+	background: #69D2E7;
+	color: #fff;
+}
+.location-bg {
+	background: #000;
+	opacity: 0.6;
 	color: #fff;
 }
 .form-control {
@@ -75,7 +84,9 @@ p>a {
 	color: #000;
 }
 .navbar-default .navbar-nav>li>a:hover {
-	color: #fff;
+	color: #000;
+	border: 1px solid #2375b2;
+	border-top: none;
 }
 .navbar-nav>.active>a, 
 .navbar-nav>.active>a:hover, 
@@ -97,6 +108,8 @@ p>a {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
 	background: #69D2E7;
+	border: 1px solid #2375b2;
+	border-top: none;
 	color: #fff;
 }
 .navbar-default .navbar-brand {
@@ -108,7 +121,9 @@ p>a {
 #header-navs ul {
 	padding-left: 10%;
 }
-
+#header-navs ul li {
+	padding-left: 3px;
+}
 .navbar-nav>li>a {
 	font-size: 20px;
 }
