@@ -325,6 +325,10 @@ section {
     font-weight: bold;
 }
 
+.white-font{
+	color: #fff;
+}
+
 /* @MEDIA 
 ================================== */
 @media (max-width: 1200px) {
