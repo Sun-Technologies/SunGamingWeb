@@ -24,12 +24,15 @@ body {
 	border: 1px solid #2375b2;
 	color: #000;
 }
-#footer p {
+
+.footer {
+	background: #F38630;
 	color: #fff;
 }
 
-#footer {
-	background: #F38630;
+footer > div > div > div > div > p {
+	font-family: GravityBook;
+	color: #fff;
 }
 #logo {
 	margin-top: -9%;

@@ -43,38 +43,25 @@
 		</div>	
 	</nav>
  	<header id="top-section">
- 		<div class="row">
-			<div id="carousel-example-generic" class="carousel slide col-md-12" style="margin-top:45px" data-ride="carousel">
-	  		<!-- Indicators -->
-			  <ol class="carousel-indicators">
-			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-			  </ol>
+ 		<div id="carousel-example-generic" class="carousel slide" style="margin-top:45px" data-ride="carousel">
+			<ol class="carousel-indicators">
+			   <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			   <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			   <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			</ol>
 
-			  <!-- Wrapper for slides -->
-			  <div class="carousel-inner" role="listbox">
+		  	<div class="carousel-inner" role="listbox">
 			    <div class="item active">
-			      <img src="images/slider.png" alt="Game Development">
-			      <div class="carousel-caption">
-			        
-			      </div>
-			    </div>
-			    <div class="item">
-			      <img src="images/slider-3.png" alt="Game Testing">
-			      <div class="carousel-caption">
-			       
-			      </div>
-			    </div>
-			    <div class="item">
-			      <img src="images/slider-2.png" alt="Game Services">
-			      <div class="carousel-caption">
-			       
-			      </div>
-			    </div>
-			  </div>
-			</div>
-		</div>
+			    	<img src="images/slider.png" alt="Game Development">
+		      	</div>
+			  	<div class="item">
+			      <img src="images/slider-3.png" alt="Game Testing">   
+			  	</div>
+		      	<div class="item">
+		      		<img src="images/slider-2.png" alt="Game Services">
+		      	</div>
+	 	 	</div>
+		</div>	
 	</header>
 	<div class="container" style="min-height:250px">
 			<p class="lead">We are into Sun Technologies and we do buil Game Development and Game Testing some test content.......</p>
@@ -192,18 +179,18 @@
     				<li role="presentation" class="active col-md-6"><a href="#dev" aria-controls="dev" role="tab" data-toggle="tab"><h4><b>Game Development</b></h4></a>
     				</li>
 
-    				<li role="presentation"><a href="#testing" aria-controls="testing" role="tab" data-toggle="tab"><h4><b>Game Testing</b></h4></a></li>
+    				<li role="presentation" class="col-md-6"><a href="#testing" aria-controls="testing" role="tab" data-toggle="tab"><h4><b>Game Testing</b></h4></a></li>
   				</ul>
   				<div class="tab-content">
     				<div role="tabpanel" class="tab-pane active navigation-tabs" id="dev">
     					<p>Aavega Interactive is a subsidiary of Sun Technologies Inc. created as a Centre for Excellence in Game Development services. Our highly skilled and experienced developers are adept in transforming client ideas and creating high quality games.</p>
     					<p>Aavega Interactive has a talented and dynamic team of game artists, developers, producers and quality assurance experts who strive to provide the best end to end services; right from planning, designing, execution and sign-off. We customize our IPs, as well as support and improvise on existing IPs, to focus on production and further development support.</p>
     					<p>We understand the need for shorter development cycles and follow hybrid methodology to accommodate the advantages of Agile and Waterfall methodologies thus giving the flexibility in the development process being much smoother. This also gives us the freedom limited by Waterfall’s planning, budgeting and scheduling constraints.</p>
-						<ul>
-    						<button type="button" class="btn btn-custom btn-lg" style=" margin-top: 10px; margin-left: 80px" data-toggle="modal" data-target="#approach"> Approach</button>
-    						<button type="button" class="btn btn-custom btn-lg" style=" margin-top: 10px; margin-left: 170px;" data-toggle="modal" data-target="#platform"> Platform Coverage</button>
-    						<button type="button" class="btn btn-custom btn-lg" style=" margin-top: 10px; margin-left: 191px;" data-toggle="modal" data-target="#process"> Process </button>
-    					</ul>
+						<div class="row">
+    						<button type="button" class="btn btn-custom btn-lg" data-toggle="modal" data-target="#approach"> Approach</button>
+    						<button type="button" class="btn btn-custom btn-lg" data-toggle="modal" data-target="#platform"> Platform Coverage</button>
+    						<button type="button" class="btn btn-custom btn-lg" data-toggle="modal" data-target="#process"> Process </button>
+    					</div>
     					<ul class="banner-border">
     						<li>
     							<img src="images/android.png" alt="Android Development">
@@ -275,11 +262,11 @@
     					<p>Aavega Interactive is a subsidiary of Sun Technologies Inc. which was created as a Centre for Excellence for Game Testing services. We have highly skilled and experienced gaming testers with strong knowledge of testing methodologies, offering testing services in alpha, beta, and release stages of the game’s testing life cycle.</p>
     					<p>Our seasoned team consists of talented group of game artists, developers, producers and quality assurance team who strive to provide the best end to end services; right from planning, designing, execution and sign-off. We provide testing services for online games, standalone games and mobile games.</p>
 
-    					<ul>
-    						<button type="button" class="btn btn-custom btn-lg" style=" margin-top: 10px; margin-left: 80px" data-toggle="modal" data-target="#qa"> QA Approach</button>
-    						<button type="button" class="btn btn-custom btn-lg" style=" margin-top: 10px; margin-left: 170px;" data-toggle="modal" data-target="#testplatform"> Platform & Technologies</button>
-    						<button type="button" class="btn btn-custom btn-lg" style=" margin-top: 10px; margin-left: 190px;" data-toggle="modal" data-target="#testprocess"> Process </button>
-    					</ul>
+    					<div class="row">
+    						<button type="button" class="btn btn-custom btn-lg" data-toggle="modal" data-target="#qa"> QA Approach</button>
+    						<button type="button" class="btn btn-custom btn-lg" data-toggle="modal" data-target="#testplatform"> Platform & Technologies</button>
+    						<button type="button" class="btn btn-custom btn-lg" data-toggle="modal" data-target="#testprocess"> Process </button>
+    					</div>
 
     					<ul class="banner-border">
     						<li>
@@ -409,20 +396,22 @@
 			</div>
 		</div>
 	</section>
-  	<footer id="foot-sec">
-  	  <div class="row" id="footer">
-		<div class="col-md-6">
+	<footer class="footer">
+      <div class="container">
+        <div class="col-md-6">
+        	<div class="row">
 			<ol class="breadcrumb">
 			  <li><a href="#Section-1">Home</a></li>
 			  <li><a href="#Section-2">Services</a></li>
 			  <li><a href="#Section-3">Career</a></li>
 			  <li><a href="#Section-4">Contact Us</a></li>
 			</ol>
-			<div class="row">
-			<div class="col-12 col-lg-12">
-			   <p style="margin-left:10px;">&copy; 2015, Aavega Interactive @<a class="" target="_blank" href="http://suntechnologies.com/"> Sun Technologies<sup> &reg;</sup></a>, All Rights Reserved</p>
 			</div>
-		</div>
+			<div class="row">
+				<div class="col-12 col-lg-12">
+				   <p>&copy; 2015, Aavega Interactive @<a class="" target="_blank" href="http://suntechnologies.com/"> Sun Technologies<sup> &reg;</sup></a>, All Rights Reserved</p>
+				</div>
+			</div>
 		</div>
 		<div class="col-md-6">
 			<ul class="social-icons pull-right">
@@ -430,8 +419,8 @@
 				<li><img src="images/twitter.png" alt="Sun Technologies Twitter"></li>
 				<li><img src="images/linkedin.png" alt="Sun Technologies LinkedIn"></li>
 			</ul>
-		</div>
-	  </div>
+			</div>
+      </div>
     </footer>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
