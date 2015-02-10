@@ -219,6 +219,10 @@ section {
 	min-height: 1000px;
 }
 
+#Section-3{
+	background-image: url("../images/bg5.png");
+}
+
 .page-header h2{
 	font-size:46px;
 	line-height:60px;
