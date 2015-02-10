@@ -255,8 +255,8 @@ section {
 	text-align: justify;
 }
 .spell-bg {
-	width: 150px;
-	height: 150px;
+	width: 165px;
+	height: 165px;
 	margin: 0 auto;
 	line-height: 165px;
 	text-align: center;
@@ -270,8 +270,9 @@ section {
 	box-sizing: border-box;
 }
 .zen-bg {
-	width: 150px;
-	height: 150px;
+	
+	width: 165px;
+	height: 165px;
 	margin: 0 auto;
 	line-height: 165px;
 	text-align: center;
@@ -291,6 +292,23 @@ section {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
+.eatz-bg  {
+	
+	width: 165px;
+	height: 165px;
+	margin: 0 auto;
+	line-height: 165px;
+	text-align: center;
+	background: #A4A4A4;
+	border-radius: 150px;
+	padding: 15px;
+	overflow:hidden;
+	box-shadow: 5px 5px 5px #888888;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+ }
 .list-style li {
 	text-align: left;
 	font-family: GravityBook;
