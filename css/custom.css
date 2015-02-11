@@ -81,7 +81,7 @@ p>a {
 	padding-top: 30px;
 	padding-bottom: 30px;
 	font-size:28px;
-	text-transform:uppercase;
+	/*text-transform:uppercase;*/
 	font-weight:700;
 }
 .nav-pills>li.active>a, 
