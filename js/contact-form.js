@@ -21,21 +21,24 @@ $(document).ready(function() {
     if (hasErrors) {
       return false;
     }
-
+  
     //send the feedback e-mail
     $.ajax({
       type: "POST",
-      url: "library/sendmail.php",
+      url: "sendmail.php",
       data: $("#feedbackForm").serialize(),
       success: function(data)
       {
-        contactForm.addAjaxMessage(data.message, false);
-        //get new Captcha on success
-        $('#captcha').attr('src', 'library/vender/securimage/securimage_show.php?' + Math.random());
+        var obj = JSON.parse(data);
+        $('#messagetitle').html("Message sent Successfully");
+        $('#messagebody').html(obj.message);
+        $('#messageModal').modal("show")
       },
       error: function(response)
-      {
-        contactForm.addAjaxMessage(response.responseJSON.message, true);
+      {        
+        $('#messagetitle').html("Error in sending Messsage");
+        $('#messagebody').html("<p class='lead'>Please try again later.</p>");
+        $('#messageModal').modal("show");
       }
    });
     return false;

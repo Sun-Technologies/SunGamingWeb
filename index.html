@@ -293,7 +293,7 @@
 					<h2>Contact Us</h2>
 				</div><br>
 				<div class="text-center col-12 col-lg-12">
-					<form role="form" id="feedbackForm" class="text-center">
+					<form role="form" id="feedbackForm" class="text-center" action="#">
 			      		<div class="form-group">
 							<!-- <label for="name">Name</label> -->
 							<input type="text" class="form-control" id="name" name="name" placeholder="Name">
@@ -310,7 +310,7 @@
 							<span class="help-block" style="display: none;">Please enter a message.</span>
 			      		</div>			      
 			      		<span class="help-block" style="display: none;">Please enter a the security code.</span>
-			      			<button type="submit" id="feedbackSubmit" class="btn btn-primary btn-lg" style=" margin-top: 10px;">  Send Feedback</button>
+			      			<button type="submit" id="feedbackSubmit" class="btn btn-primary btn-lg" style=" margin-top: 10px;">  Send </button>
 			    	</form>
 				</div>
 			</div>
@@ -336,12 +336,27 @@
 						<h4>INDIA Location:</h4>
 						<p class="white-font">No. 510, 4th Block, 1st Stage,<br> HBR Layout <br>Bangalore 560043, India</p>
 					</div>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.223325961955!2d-84.29513199999995!3d34.038142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5753eb66d0cd9%3A0xdaf61b7419130b1c!2sSun+Technologies%2C+Inc.!5e0!3m2!1sen!2sin!4v1422432057532" 
-					width="550" height="250" frameborder="0" style="border:0"></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d7774.023466743867!2d77.62821424208424!3d13.034924652748426!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1423659563675" width="550" height="250" frameborder="0" style="border:0"></iframe>
 				</div>
 			</div>
 		</div>
 	</section>
+  <div class="modal fade" id="messageModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+       <h4 class="modal-title" id="messagetitle"></h4>
+      </div>
+      <div class="modal-body">
+        <div id="messagebody"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 	<footer class="footer">
       <div class="container">
         <div class="col-md-6">
@@ -396,7 +411,7 @@
 	<script src="js/jquery.parallax-1.1.3.js" type="text/javascript" ></script>
 	<script src="js/jquery.localscroll-1.2.7-min.js" type="text/javascript" ></script>
 	<script src="js/jquery.scrollTo-1.4.6-min.js" type="text/javascript" ></script>
-	<script src="js/contact-form.js"></script>
+	<script src="js/contact-form.js?2"></script>
 	<script src="js/jquery.fitvids.min.js" type="text/javascript"></script>
 	<script>
         jQuery(".container").fitVids();          
