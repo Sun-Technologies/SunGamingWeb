@@ -155,7 +155,7 @@ p>a {
 	font-weight:700;
 }
 .nav>li>a{
-	padding:30px 40px;
+	padding:30px 15px;
 	font-family: GothamRounded;
 }
 .social-icons {
@@ -199,6 +199,9 @@ header{
 	padding-bottom:0px;
 	margin-bottom:40px;
 	/*min-height: 100px;*/
+}
+ul.social-icons-header li {
+	display: inline-block;
 }
 	  
 section {	
